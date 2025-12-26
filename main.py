@@ -1077,13 +1077,13 @@ async def txt_handler(bot: Client, m: Message):
 
             elif "classplusapp.com/drm/" in url:
                 url = f""
-                #url = f"https://scammer-keys.vercel.app/api?url={url}&token={cptoken}&auth=@scammer_botxz1"
+                #url = f"https://head-micheline-botupdatevip-f1804c58.koyeb.app"
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
 
             elif "classplusapp" in url:
-                signed_api = f""
+                signed_api = f"https://head-micheline-botupdatevip-f1804c58.koyeb.app"
                 response = requests.get(signed_api, timeout=10)
                 url = response.text.strip()
                 
@@ -1418,7 +1418,7 @@ async def text_handler(bot: Client, m: Message):
                 keys_string = " ".join([f"--key {key}" for key in keys])
 
             elif "classplusapp.com/drm/" in url:
-                url = '' + url
+                url = 'https://head-micheline-botupdatevip-f1804c58.koyeb.app' + url
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
